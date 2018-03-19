@@ -10,10 +10,24 @@
 .red{
   background-color: #F04848;
 }
+
+.blue{
+  background-color: #49B8D3;
+}
+
+.purple{
+  background-color: #D723F7;
+}
+
+.orange{
+  background-color: #F78723;
+}
+
 #box2{
 
 }
 
 .wide{
   width: 500px;
+
 }

@@ -13,7 +13,7 @@ $(document).ready(function(){
     });
 
     $("#box2").dblclick(function(){
-        console.log("red box is clicked");
+        console.log("red box is double clicked");
     });
 
     $("#myForm").submit(function(){
