@@ -21,7 +21,8 @@ $(document).ready(function(){
         console.log("do this instead");
     });
 
-    $("#box1").click(function(){
+    //$("#box1").click(function(){
+        //$("#box1").toggleClass("higher");
         //$("#box2").hide();
         //$("#box2").toggle(5000); //5000 sets 5sec span for displaying
         //$("#box2").fadeOut(5000);
@@ -29,11 +30,21 @@ $(document).ready(function(){
         //$("#box2").removeClass("wide");
         //$("#box2").toggleClass("wide");
         //$("#box2").css("background-color","pink");
-        $("#box2").css({"background-color":"pink", "width":"500px"})
+        //$("#box2").css({"background-color":"pink", "width":"500px"})
+
     });
 
+    //$("#box2").click(function(){
+      //$("#box2").toggleClass("higher");
+    //})
 
+    $(".box").click(function(){
+        $(this).toggleClass("higher");
+    });//click event to every box
 
+    $("#button").click(function(){
+      //$("#paragraph").append(" This text gets added to the end");
+      $("#list1").append("<li class='listColor'>This is a list item</li>");
+      $("body").append("<div class='box blue'></div>");
 
-
-});
+    });
